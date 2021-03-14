@@ -22,14 +22,14 @@ body {
 
 #weather-box {
     padding: 30px;
-    background-color: darkcyan;
+    background-color: rgb(163, 219, 219);
 }
 
 #city-container {
     border: 5px solid black;
     border-radius: 10px;
     padding: 30px;
-    background-color: cornsilk;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     margin: 0 auto;
 }
