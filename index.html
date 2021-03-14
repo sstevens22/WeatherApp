@@ -12,50 +12,74 @@
 </head>
 <body>
     <header class="titleTop">
-        <h1>Weather App</h1>
+        <h1><i class="fas fa-cloud-sun"></i>Weather App</h1>
     </header>
-    <div class="container">
+
+    <div class="container-fluid main-div">
+
+        <!--Search Container-->
         <div class="row">
-            <div id="search" class="">
+            <div id="search-box" class="col-lg-3 col-md-12 col-sm-12">
                 <h2>City Search</h2>
-                <div class="form">
-                    <form id="" class=""></form>
-                    <input id="" type="" class="">
-                    <div class="append">
-                        <button class="btn" type="button" id=""></button>
+
+                <!--Search Bar-->
+                <div class="input-group mb-3">
+                    <form id="search-form" class="form-inline"></form>
+                    <input id="search-input" type="text" class="form-control">
+                    <div class="input-group-append">
+                        <button class="btn btn-info" type="button" id="search-button"><i
+                            class="fas fa-search-location"></i></button>
                     </div>
                 </div>
-                <div id="listed cities">
-                    <ul class="list" id="list"></ul>
+
+                <!--Saved Cities-->
+                <div id="listed-cities">
+                    <ul class="list-group" id="list-group"></ul>
                 </div>
             </div>
-            <div id="weather" class="">
-                <div id="city container">
+
+                <!--Weather Box-->
+            <div id="weather-box" class="col-lg-9 col-md-12 col-sm-12">
+
+                <!--Current Search-->
+                <div id="city-container">
                 </div>
-                <div id="forcast">
-                    <div class="row">
-                        <div class=""></div>
-                        <div class="">
+
+                <!--Five Day Forecast-->
+                <div id="forcast-box">
+                    <br/>
+                    <h3>5-Day Forecast:</h3>
+                    <br/>
+                    <div class="forcast-row">
+                        <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-lg-2 col-md-12 col-sm-12 text-center">
                             <div class="card">
-                                <div id="" class="card body"></div>
+                                <div id="five1" class="card-body"></div>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="col-lg-2 col-md-12 col-sm-12 text-center">
                             <div class="card">
-                                <div id="" class="card body"></div>
+                                <div id="five2" class="card-body"></div>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="col-lg-2 col-md-12 col-sm-12 text-center">
                             <div class="card">
-                                <div id="" class="card body"></div>
+                                <div id="five3" class="card-body"></div>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="col-lg-2 col-md-12 col-sm-12 text-center">
                             <div class="card">
-                                <div id="" class="card body"></div>
+                                <div id="five4" class="card-body"></div>
                             </div>
                         </div>
-                        <div class=""></div>
+                        <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+                            <div class="card">
+                                <div id="five5" class="card-body"></div>
+                            </div>
+                        </div>
+                        <div class="col-1"></div>
+                        </div>
                      </div>
                 </div>
             </div>
