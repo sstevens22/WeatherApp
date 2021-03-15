@@ -4,3 +4,4 @@ A weather dashboard that allows the user to search for the current and five day 
 Sheldon Stevens
 
 Demo
+![Weather app](./assets/images/weatherDay.jpg)
