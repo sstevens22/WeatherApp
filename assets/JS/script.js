@@ -245,7 +245,7 @@ window.onload = function () {
   })
   
   const saveToLocalStorage2 = () => {
-    localStorage.setItem('textinput1', text1.innerHTML);
+    localStorage.setItem('textinput2', text2.innerHTML);
   }
   
   // save to local storage: day 3 five-day-box
@@ -447,7 +447,7 @@ window.onload = function () {
                 var date4 = response.list[24].dt_txt;
                 var slicedate4 = date4.slice(5, 10);
   
-                var date4 = $("<p>").text(slicedate3);
+                var date4 = $("<p>").text(slicedate4);
                 var weatherIcon4 = $("<img>").attr("src", "https://openweathermap.org/img/wn/" + response.list[24].weather[0].icon + ".png");
                 var weatherType4 = $("<p class='bold'>").text(response.list[24].weather[0].main);
                 // Temp
